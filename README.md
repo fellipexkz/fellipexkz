@@ -1,6 +1,16 @@
-### Hi there 👋
+# Hello, I'm Fellipe👋
+
+I'm a Systems Analysis and Development student at Estácio de Sá University.
+
+These are the languages I use:
+
+- Programming: C, Python
+- Database: SQL
+- Web: HTML, CSS, JavaScript, PHP
 
 <!--
+- ### Hi there 👋
+
 **fellipexkz/fellipexkz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
