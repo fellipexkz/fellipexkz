@@ -1,6 +1,6 @@
 # Hello, I'm Fellipe👋
 
-I'm a Systems Analysis and Development student at Estácio de Sá University.
+I'm a IT student at Estácio de Sá University.
 
 These are the languages I use:
 
