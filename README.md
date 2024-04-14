@@ -4,7 +4,7 @@ I'm a IT student at Estácio de Sá University.
 
 These are the languages I use:
 
-- Programming: C, Python
+- Programming: C, Python, Java
 - Database: SQL
 - Web: HTML, CSS, JavaScript, PHP
 
