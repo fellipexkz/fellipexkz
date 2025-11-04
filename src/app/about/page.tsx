@@ -18,8 +18,7 @@ export default function AboutPage() {
           <a href="https://open.spotify.com/artist/4ymHKBTThfeOL114lwCWPQ?si=c30897c35e404259">
             became a singer-songwriter
           </a>
-          , got a Karate blue belt, won back-to-back Carnavals with a samba
-          school and wasted thousands of hours playing League of Legends.
+          , got a Karate blue belt, won two Carnaval trophies and reached Diamond IV in League of Legends.
         </p>
         <p>
           Then I studied Economics at{" "}
@@ -74,7 +73,7 @@ export default function AboutPage() {
           live.
         </p>
         <p>
-          If you want to get in touch, send me a DM on{" "}
+          Send me a DM on{" "}
           <a href="https://x.com/lukeberrypi">X</a> or an email{" "}
           <a href="mailto:lukeberrypi@gmail.com">lukeberrypi@gmail.com</a>.
         </p>
