@@ -54,13 +54,49 @@ export default function Header() {
             <ChevronLeft strokeWidth={1.4} />
           </div>
           <div className="flex flex-col max-sm:items-center">
-            Luke Berry
+            Adson Fellipe Nascimento de Almeida
             <span className="text-zinc-500 dark:text-zinc-400">
-              Software Engineer
+              Desenvolvedor Fullstack
             </span>
           </div>
         </Link>
         <div className="flex items-center gap-4">
+          <Link
+            className="group relative rounded px-2 py-px sm:hover:ring-1 ring-sky-500 transition-transform dark:ring-sky-600"
+            href="/projects"
+            aria-label="View projects"
+            aria-current={path === "/projects" ? "page" : undefined}
+          >
+            /projetos
+            <Triangle
+              aria-hidden="true"
+              className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
+            />
+          </Link>
+          {/* <Link
+            className="group relative rounded px-2 py-px sm:hover:ring-1 ring-sky-500 transition-transform dark:ring-sky-600"
+            href="/articles"
+            aria-label="View articles"
+            aria-current={path.startsWith("/articles") ? "page" : undefined}
+          >
+            /artigos
+            <Triangle
+              aria-hidden="true"
+              className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
+            />
+          </Link>*/}
+          <Link
+            className="group relative rounded px-2 py-px sm:hover:ring-1 ring-sky-500 transition-transform dark:ring-sky-600"
+            href="/about"
+            aria-label="View about page"
+            aria-current={path === "/about" ? "page" : undefined}
+          >
+            /sobre mim
+            <Triangle
+              aria-hidden="true"
+              className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
+            />
+          </Link>
           <button
             onClick={() => toggleTheme()}
             className="group relative flex items-center"
@@ -69,51 +105,15 @@ export default function Header() {
             {isDarkMode ? (
               <Moon
                 strokeWidth={1.4}
-                className="size-5 fill-gray-700 transition-transform"
+                className="size-5 transition-transform"
               />
             ) : (
               <Sun
                 strokeWidth={1.4}
-                className="size-5 fill-yellow-300 transition-transform sm:hover:rotate-45"
+                className="size-5 transition-transform sm:hover:rotate-45"
               />
             )}
           </button>
-          <Link
-            className="group relative rounded px-2 py-px sm:hover:ring-1 ring-sky-500 transition-transform dark:ring-sky-600"
-            href="/projects"
-            aria-label="View projects"
-            aria-current={path === "/projects" ? "page" : undefined}
-          >
-            /projects
-            <Triangle
-              aria-hidden="true"
-              className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
-            />
-          </Link>
-          <Link
-            className="group relative rounded px-2 py-px sm:hover:ring-1 ring-sky-500 transition-transform dark:ring-sky-600"
-            href="/articles"
-            aria-label="View articles"
-            aria-current={path.startsWith("/articles") ? "page" : undefined}
-          >
-            /articles
-            <Triangle
-              aria-hidden="true"
-              className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
-            />
-          </Link>
-          <Link
-            className="group relative rounded px-2 py-px sm:hover:ring-1 ring-sky-500 transition-transform dark:ring-sky-600"
-            href="/about"
-            aria-label="View about page"
-            aria-current={path === "/about" ? "page" : undefined}
-          >
-            /about
-            <Triangle
-              aria-hidden="true"
-              className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
-            />
-          </Link>
         </div>
       </nav>
     </header>
