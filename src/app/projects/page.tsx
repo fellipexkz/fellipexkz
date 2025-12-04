@@ -15,11 +15,11 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "Blog",
+    name: "fellipexkz",
     description: "Meu site portifolio feito com um fork de LukeberryPi.",
-    url: "N/A",
+    url: "https://fellipexkz.vercel.app/",
     imageUrl: "/projects/blog.png",
-    githubUrl: "https://github.com/fellipexkz/blog",
+    githubUrl: "https://github.com/fellipexkz/fellipexkz",
     technologies: (
       <div className="flex items-center gap-x-3">
         <span className="rounded-full bg-[#007ACC] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-200 dark:ring-1 dark:ring-zinc-500">
