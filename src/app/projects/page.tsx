@@ -105,7 +105,7 @@ const projects: Project[] = [
   {
     name: "BigDataProject",
     description:
-      "Projeto de Big Data feito na faculdade para uma pizzaria local. Ultilizando Python e dados de Chuva do INMET, ipca, google trends e dados de vendas da pizzaria.",
+      "Projeto de Big Data feito na faculdade para uma pizzaria local. Ultilizando Python e dados de Chuva do INMET, IPCA, Google Trends e dados de vendas da pizzaria.",
     url: "N/A",
     imageUrl: "/projects/BigDataProject.png",
     githubUrl: "https://github.com/fellipexkz/BigDataProject",
@@ -135,7 +135,7 @@ const projects: Project[] = [
   {
     name: "bookstore",
     description:
-      "Primeiro projeto que fiz na faculdade. um site simples de livraria feito com html, css, javascript e php.",
+      "Primeiro projeto que fiz na faculdade. um site simples de livraria feito com HTML, CSS, JavaScript e PHP.",
     url: "N/A",
     imageUrl: "/projects/bookstore.png",
     githubUrl: "https://github.com/fellipexkz/bookstore",
@@ -194,11 +194,11 @@ function ProjectCard({
               rel="noopener noreferrer"
               className="flex grow items-center justify-center gap-2 py-4 transition-transform sm:hover:bg-zinc-100 sm:dark:hover:bg-zinc-800"
             >
-              <Globe strokeWidth={1.4} className="size-5" /> Visit website
+              <Globe strokeWidth={1.4} className="size-5" /> Ver site
             </a>
           ) : (
             <span className="flex grow items-center justify-center gap-2 py-4 text-zinc-500 dark:text-zinc-400">
-              <Globe strokeWidth={1.4} className="size-5" /> Visit website
+              <Globe strokeWidth={1.4} className="size-5" /> Ver site
             </span>
           )
         ) : null}
@@ -208,7 +208,7 @@ function ProjectCard({
           rel="noopener noreferrer"
           className="flex grow items-center justify-center gap-2 py-4 transition-transform sm:hover:bg-zinc-100 sm:dark:hover:bg-zinc-800"
         >
-          <GitBranch strokeWidth={1.4} className="size-5" /> View code
+          <GitBranch strokeWidth={1.4} className="size-5" /> Ver código
         </a>
       </div>
     </div>
