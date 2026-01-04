@@ -40,7 +40,7 @@ const projects: Project[] = [
       </div>
     ),
   },
-  {
+  /*{
     name: "madyla-fellipe-site",
     description: "Site estilo mural de relacionamento feito para a minha namorada.",
     url: "https://madyla-fellipe-site.pages.dev/",
@@ -59,7 +59,7 @@ const projects: Project[] = [
         </span>
       </div>
     ),
-  },
+  },*/
   {
     name: "MyCoach",
     description: "Aplicativo mobile feito para personais trainers gerenciarem seus alunos e treinos.",
@@ -167,8 +167,7 @@ function ProjectCard({
   technologies,
   imageWidth,
   imageHeight,
-  showWebsite,
-}: Project & { showWebsite?: boolean }) {
+}: Project) {
   return (
     <div className="flex-col divide-y divide-zinc-400 dark:divide-zinc-500 overflow-hidden rounded ring-1 dark:zinc-500 dark:ring-zinc-500 ring-zinc-400">
       <div className="flex items-center justify-between gap-4 p-4 max-sm:flex-col">
@@ -186,22 +185,16 @@ function ProjectCard({
         className="object-cover"
       />
       <div className="flex w-full justify-between divide-x divide-zinc-400 dark:divide-zinc-500">
-        {showWebsite ? (
-          url && url !== "N/A" ? (
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex grow items-center justify-center gap-2 py-4 transition-transform sm:hover:bg-zinc-100 sm:dark:hover:bg-zinc-800"
-            >
-              <Globe strokeWidth={1.4} className="size-5" /> Ver site
-            </a>
-          ) : (
-            <span className="flex grow items-center justify-center gap-2 py-4 text-zinc-500 dark:text-zinc-400">
-              <Globe strokeWidth={1.4} className="size-5" /> Ver site
-            </span>
-          )
-        ) : null}
+        {url && url !== "N/A" && (
+          <a
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex grow items-center justify-center gap-2 py-4 transition-transform sm:hover:bg-zinc-100 sm:dark:hover:bg-zinc-800"
+          >
+            <Globe strokeWidth={1.4} className="size-5" /> Ver site
+          </a>
+        )}
         <a
           href={githubUrl}
           target="_blank"
@@ -222,8 +215,8 @@ export default function ProjectsPage() {
         Projetos
       </h1>
       <div className="space-y-20">
-        {projects.map((project, index) => (
-          <ProjectCard key={project.name} {...project} showWebsite={index < 2} />
+        {projects.map((project) => (
+          <ProjectCard key={project.name} {...project} />
         ))}
       </div>
     </>
