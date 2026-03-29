@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="min-h-screen" suppressHydrationWarning>
+    <html lang="pt-BR" className="min-h-screen" suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{

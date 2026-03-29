@@ -6,7 +6,7 @@ export default function AboutPage() {
       </h1>
       <article>
         <p>
-          Olá! Eu sou o Fellipe, 22 anos, recém-formado em Análise e Desenvolvimento de Sistemas pela Faculdade Estácio de Sá (concluído em dezembro de 2025).
+          Olá! Me chamo Adson Fellipe, tenho 22 anos, sou formado em Análise e Desenvolvimento de Sistemas pela Faculdade Estácio de Sá (concluído em dezembro de 2025).
         </p>
         <p>
           Durante a graduação, combinei estudos com experiência prática na administração de um varejo familiar, onde atuei na gestão operacional completa (estoque, caixa, compras e atendimento) e desenvolvi soluções próprias, como um sistema PDV em Java e ferramentas de análise de dados com Python e Power BI. Essa vivência me deu uma visão única de como a tecnologia pode otimizar processos reais do dia a dia.
@@ -15,10 +15,10 @@ export default function AboutPage() {
           Sou apaixonado por programação, análise de dados, automação (IoT) e suporte técnico. Trabalho com Java, Python, Power BI, SQL, JavaScript, Git e tenho experiência em manutenção de hardware e redes. Além disso, gosto de música, jogos e esportes, equilíbrio é essencial!
         </p>
         <p>
-          Meu objetivo agora é ingressar no mercado de tecnologia ou administração, contribuindo com projetos que façam diferença, seja em suporte TI, análise de dados ou desenvolvimento de sistemas. Estou aberto a oportunidades em Castanhal e região (ou remoto) para aplicar e ampliar minhas habilidades.
+          Atualmente, atuo como Analista de Suporte na Mariza Foods, onde tenho a oportunidade de aplicar minhas habilidades no dia a dia corporativo e resolver problemas de forma eficiente. Continuo sempre em busca de aprender novas tecnologias e aprimorar meus conhecimentos na área.
         </p>
         <p>
-          Sinta-se à vontade para entrar em contato comigo para conversar sobre vagas, projetos ou colaborações!
+          Sinta-se à vontade para entrar em contato comigo para trocar ideias sobre tecnologia, projetos ou networking!
         </p>
         <p>Atenciosamente,<br/>Fellipe</p>
       </article>

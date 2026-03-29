@@ -56,7 +56,7 @@ export default function Header() {
           <div className="flex flex-col max-sm:items-center">
             Adson Fellipe Nascimento de Almeida
             <span className="text-zinc-500 dark:text-zinc-400">
-              Desenvolvedor Fullstack
+              Analista de Suporte
             </span>
           </div>
         </Link>
